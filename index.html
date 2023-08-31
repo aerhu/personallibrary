@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Library</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>My Personal Library</h1>
+</header>
+<main>
+<div class="add-book-form">
+<h2>Add a New Book</h2>
+<input type="text" id="title" placeholder="Title">
+<input type="text" id="author" placeholder="Author">
+<input type="number" id="year" placeholder="Publication Year">
+<button id="add-btn">Add Book</button>
+<button id="add-front-btn">Add Book to Front</button>
+<button id="remove-last-btn">Remove Last Book</button>
+<button id="remove-first-btn">Remove First Book</button>
+</div>
+<div class="book-list">
+<h2>My Book List</h2>
+<ul id="book-list"></ul>
+</div>
+</main>
+<script src="index.js"></script>
+</body>
+</html>
